@@ -1,0 +1,2 @@
+docker build -t pruebas .
+docker run -it --name pruebas -p 3020:3020 pruebas
